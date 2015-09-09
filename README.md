@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/aleks/lita-openweathermap.png?branch=master)](https://travis-ci.org/aleks/lita-openweathermap)
 
-TODO: Add a description of the plugin.
+A Lita Handler for OpenWeatherMap Data. (http://openweathermap.org/)
 
 ## Installation
 
@@ -14,8 +14,21 @@ gem "lita-openweathermap"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Add your prefered metric to your Lita config (Default: 'metric'):
+
+``` ruby
+Lita.configure do |config|
+  config.handlers.openweathermap.metric = "metric" # 'metric' or 'imperial'
+end
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+```
+Lita: weather berlin, germany
+```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
