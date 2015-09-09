@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/aleks/lita-openweathermap.png?branch=master)](https://travis-ci.org/aleks/lita-openweathermap)
 
-A Lita Handler for OpenWeatherMap Data. (http://openweathermap.org/)
+A Lita (https://www.lita.io/) Handler for OpenWeatherMap Data. (http://openweathermap.org/)
 
 ## Installation
 
