@@ -5,8 +5,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["ihunte@gmail.com"]
   spec.description   = "A Lita handler that provides data from openweathermap.org"
   spec.summary       = "A Lita handler that provides data from openweathermap.org"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.homepage      = "https://github.com/aleks/lita-openweathermap"
+  spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
